@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.header {
+    text-align: center;
+    background-color: #3c3c3f;
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: 'Lucida Sans';
+    height: 75px;
+}
+
+.container {
+    background-color: #3c3c3f;
+    height: 70px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -15%);
+}
+
+#inputBox {
+    height: 35px;
+    width: 190px;
+    outline: none;
+    border: none;
+    text-align: center;
+}
+
+#submit {
+    height: 35px;
+    width: 75px;
+    float: right;
+    margin-left: 30px;
+    font-size: 19px;
+    font-weight: bolder;
+    font-family: Arial;
+    cursor: pointer;
+    outline: none;
+    background-color: #dbd9d9;
+    color: #3c3c3f;
+    border: 2px solid #3c3c3f;
+}
+
+#submit:hover {
+    background-color: #efefef;
+    color: #343435;
+    border: 2px solid #4c4c4e;
+}
+
+.main-container {
+    background-color: #3c3c3f;
+    border-radius: 3px;
+    height: 500px;
+    overflow-y: scroll;
+    width: 350px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+    scroll-behavior: smooth;
+}
+
+.container2 {
+    font-family: 'Lucida Sans';
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: #dbd9d9 2px solid;
+    padding: 10px;
+    color: #dbd9d9;
+}
+
+.taskDiv {
+    display: flex;
+    padding: 10px 10px 1px 10px;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffffff;
+}
+
+#task-todo-container input[type=checkbox] {
+    margin: 1px 10px 1px 1px;
+}
+
+input[type=checkbox] {
+    cursor: pointer;
+}
+
+.taskName {
+    word-break: break-all;
+}
+
+.remove {
+    background-color: transparent;
+    outline: none;
+    color: whitesmoke;
+    text-transform: lowercase;
+    font-size: 16px;
+    border: none;
+    border-bottom: whitesmoke 2px solid;
+    cursor: pointer;
+}
+
+#inputBox{
+    font-size: 15px;
+    font-weight: bolder;
+
+}
+
+#clearBtn{
+    height: 35px;
+    width: 75px;
+    float: right;
+    margin-left: 30px;
+    font-size: 19px;
+    font-weight: bolder;
+    font-family: Arial;
+    cursor: pointer;
+    outline: none;
+    background-color: #dbd9d9;
+    color: #3c3c3f;
+    border: 2px solid #3c3c3f;
+}
+
+#clearBtn:hover{
+    background-color: #efefef;
+    color: #343435;
+    border: 2px solid #4c4c4e;
+}
